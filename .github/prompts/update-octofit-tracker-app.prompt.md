@@ -1,4 +1,4 @@
-mode: 'agent'
+python manage.py migrate admin zero --fakemode: 'agent'
 model: GPT-4.1
 
 # Django App Updates
